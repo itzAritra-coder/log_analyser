@@ -16,7 +16,8 @@ MAX_LINE_CHARS = 64 * 1024        # longer lines are counted as unparseable
 OVERLONG = "<line exceeded maximum length>"
 
 _LINE_RE = re.compile(
-    r"^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2}) (%s) (\S+) (.+)$" % "|".join(LEVELS)
+    r"^(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2})\s+(%s)\s+(\S+)\s+(.+)$"
+    % "|".join(LEVELS)
 )
 
 

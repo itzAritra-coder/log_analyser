@@ -1,24 +1,12 @@
-2026-10-01 08:00:00 INFO gateway-service Listening on port 443
-2026-10-01 08:00:01 INFO order-service Connected to database
-2026-10-01 08:00:02 DEBUG cache-service Warming cache with 5000 keys
-2026-10-01 08:01:14 ERROR order-service Failed to reserve stock for order #4821
-2026-10-01 08:01:15 ERROR shipping-service Carrier API returned 503
-2026-10-01 08:02:30 WARN gateway-service Rate limit reached for client 10.0.0.7
-2026-10-01 08:03:45 ERROR gateway-service Upstream timeout after 15s
-2026-10-01 08:03:46 ERROR order-service Payment callback missing: café ✓
-2026-10-01 08:04:00 INFO shipping-service Label created for order #4819
-2026-10-01 08:05:10 ERROR shipping-service Address validation failed
-2026-10-01 08:06:20 FATAL cache-service Redis connection lost
-2026-10-01 08:06:21 ERROR gateway-service Circuit breaker opened
-2026-10-01 08:07:00 DEBUG cache-service Eviction run complete
-2026-10-01 08:08:30 ERROR order-service Duplicate order submission
-2026-10-01 08:09:00 INFO cache-service Reconnected
-2026-10-01 08:10:15 ERROR shipping-service Timeout while fetching rates
+2026-09-18 10:23:45 ERROR payment-service Connection timeout after 30s
+2026-09-18 10:23:46 INFO auth-service No ERROR occurred during startup
+2026-09-18 10:23:47 ERROR payment-service    Connection    refused    repeatedly
+2026-09-18 10:23:48 WARN billing-service ERROR threshold not yet reached
+this is not a log line at all
+2026-09-18 10:23:49 ERROR  billing-service Double space before service name
+2026-09-18 10:23:50 INFO payment-service Retry succeeded
+2026-09-18
+2026-09-18 10:23:51 ERROR billing-service Invalid account state
 
-   
-ERROR payment-service missing timestamp
-2026-10-01 08:11:00 ERROR payment-service
-2026-10-01 8:11:30 ERROR gateway-service Single digit hour is unparseable
-2026-10-01 08:12:00 WARN order-service Slow query detected (2.4s)
-2026-10-01 08:12:30 ERROR gateway-service Bad gateway
-2026-10-01 08:13:00 INFO payment-service Refund processed
+2026-09-18 10:23:52 DEBUG auth-service Previous ERROR cleared
+2026-09-18 10:23:53 ERROR payment-service Final failure
